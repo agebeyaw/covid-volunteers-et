@@ -77,7 +77,7 @@ Rails.application.configure do
    :user_name            => ENV['GMAIL_USERNAME'],
    :password             => ENV['GMAIL_PASSWORD'],
    :authentication       => "plain",
-  :ssl => true
+   :ssl => true
   }
 
   config.action_mailer.default_url_options = { :host => ENV['HOST'], protocol: 'http' }
